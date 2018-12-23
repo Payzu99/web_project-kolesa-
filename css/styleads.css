@@ -1,0 +1,208 @@
+#header{
+    font-weight: bold;
+    color: #000000;
+}
+
+section {
+  flex-grow: 1;  
+  padding: 10px;
+}
+#a{
+    position: relative;
+    left: 500px;
+}
+#b{
+    position: relative;
+    right: 100px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+header{
+    display: flex;
+    background-color: white;
+    font-size: 15px;
+    height: 40px;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    
+}
+
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+.everything .row-1{
+    display: flex;
+    margin-bottom: 100px;
+}.everything .row-2{
+    display: flex;
+    margin-bottom: 250px;
+}.everything .row-3{
+    display: flex;
+    margin-bottom: 40px;
+}
+.everything .row-4{
+    display: flex;
+     margin-bottom: 40px;
+}
+
+.everything .row-5{
+    display: flex;
+     margin-bottom: 40px;
+    
+}.everything .row-5 label{
+    color: blue;
+    
+}
+.everything .row-6{
+    display: flex;
+     margin-bottom: 60px;
+}
+.everything .row-6 .color{
+  
+     margin-bottom: 150px;
+}
+.everything #countries{
+    margin-left: 90px;
+}
+.everything .maker{
+    margin-left: 120px;
+}
+.everything .button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 185px;
+    width: 800px;
+}
+.everything .button{
+    color: blue;
+}
+.everything .year{
+    margin-left: 150px;
+}
+.everything .price{
+    margin-left: 205px;
+}
+.row-3 .button label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+    }
+
+.button input[type="radio"] {
+    display: none; 
+}
+.button input[type="radio"]:checked + label {
+      background: #fc3;
+      color: #000; 
+}
+.engine input[type="radio"] {
+    display: none; 
+}
+.engine input[type="radio"]:checked + label {
+      background: #fc3;
+      color: #000; 
+}
+.gear input[type="radio"] {
+    display: none; 
+}
+.gear input[type="radio"]:checked + label {
+      background: #fc3;
+      color: #000; 
+}
+.steer input[type="radio"] {
+    display: none; 
+}
+.steer input[type="radio"]:checked + label {
+      background: #fc3;
+      color: #000; 
+}.drive_unit input[type="radio"] {
+    display: none; 
+}
+.drive_unit input[type="radio"]:checked + label {
+      background: #fc3;
+      color: #000; 
+}
+.row-5 .engine label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    }
+.row-5 .gear label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 30px 5px 30px;
+    }
+.row-6 .steer label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 30px 5px 30px;
+    border: 1px solid #c3b8b8;
+    }
+.row-5 .drive_unit label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 30px 5px 30px;
+
+    }
+.everything {
+    margin: 50px;
+}
+.everything .engine{
+    margin-left: 191px;
+}
+.everything .engine label{
+    color: blue;
+}
+.everything .gear{
+    margin-left: 150px;
+}
+.everything .milleage{
+    margin-left: 180px;
+}
+.everything .steer{
+    margin-left: 202px;
+}
+.everything .color{
+    margin-left: 202px;
+
+}
+.everything .color select{
+    padding: 5px;
+    padding-right: 150px;
+    color: #363636;
+}
+.everything .color option{
+    font-size: 15px;
+}
+.everything .drive_unit{
+    margin-left: 141px;
+}
+.everything .img{
+    margin-left: 150px;
+}
+.everything .phone{
+    margin-left: 128px;
+}
+.everything .submit{
+    margin-left: 242px;
+}
+.everything .maker select{
+    padding: 5px;
+}
+.everything input{
+    padding: 5px;
+}
+.everything  select{
+    padding: 5px;
+}
